@@ -1,0 +1,78 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+//$font-family-sans-serif: 'Nunito', sans-serif;
+//$font-size-base: 0.9rem;
+//$line-height-base: 1.6;
+
+
+@font-face {
+    font-family: 'sans-serif';
+    src: url(/assets/fonts/PTSerif-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sans-serif';
+    src: url(/assets/fonts/PTSerif-Bold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(/assets/fonts/ARIAL.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(/assets/fonts/ARIALBD.TTF) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url(/assets/fonts/ArialCEMTBlack.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/assets/fonts/OpenSans_Condensed-ExtraBold.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/assets/fonts/OpenSans-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/assets/fonts/OpenSans-Light.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/assets/fonts/OpenSans-Regular.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/assets/fonts/OpenSans-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

@@ -1,0 +1,30 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect /index.php to /
+    RewriteCond %{THE_REQUEST} /index\.php [NC]
+    RewriteRule ^index\.php$ https://www.cheaptraintickets.co.uk/ [L,R=301]
+
+    # Prevent Direct Access to files
+    <FilesMatch "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+    Require all denied
+    </FilesMatch>
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

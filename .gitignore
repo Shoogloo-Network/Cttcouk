@@ -33,4 +33,6 @@ yarn-error.log
 /.idea
 /.vscode
 /config/database.*
-
+.editorconfig
+.env.example
+config/database.php
