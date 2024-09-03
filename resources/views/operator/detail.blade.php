@@ -51,6 +51,9 @@
             <h3 class="heading mb-4">{{ $otaData->name }} Top Routes</h3>
             <div class="row">
                 @foreach ($popData as $routes)
+				@php
+                    $cities = explode('-to-', $routes->route_slug);
+                @endphp
                     <div class="col-md-3 plr-0 flex-none">
                         <div class="column-inner">
                             <div class="column-wrapper">
@@ -62,7 +65,7 @@
                                 <div class="banner-txt" style="text-align: justify"> {!! substr($routes->route_shdesc, 0, 212) !!}</div>
                                 <div class="view-box">
                                     <a class="view-btn"
-                                        href="{{ url('trains-to-'. $routes->route_slug . '.html') }}"
+                                        href="{{ url('trains-to-' . $cities[1] . '/' . $routes->route_slug . '-train.html') }}"
                                         title="">Read More</a>
                                 </div>
                             </div>
