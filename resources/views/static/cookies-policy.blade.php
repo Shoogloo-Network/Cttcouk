@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('title', 'About Us')
-@section('meta-description', 'PO Ferries about us')
-@section('meta-keyword', 'PO Ferries')
+@section('title', 'Cookie Policy | Cheap Train Tickets')
+@section('meta-description', 'Cookies often receive a negative reputation, yet they are incredibly beneficial and can save you significant time. Continue reading to discover how the cookies we use can enhance your Cheap Train Tickets experience.')
+@section('meta-keyword', '')
 @section('content')
     <section class="section-gray fadeInUp animated">
         <div class="container herobanner">

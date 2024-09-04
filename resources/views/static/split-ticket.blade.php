@@ -16,7 +16,7 @@
                                 <div class="heading2">Cheap Train Tickets to {{ $cities->name }}</div>
                                 <div class="banner-txt2">{!! $cities->shortdesc !!}</div>
                                 <div class="view-box">
-                                    <a class="view-btn" href="{{ '/split-train-tickets-to-' . $cities->slug }}.html "
+                                    <a class="view-btn" href="{{ 'https://www.splittraintickets.net/split-train-tickets-to-' . $cities->slug }}.html "
                                         title="">View More</a>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
                                 <div class="heading2">{{ $routes->name }}</div>
                                 <div class="banner-txt">{!! $routes->shortdesc !!}</div>
                                 <div class="view-box">
-                                    <a class="view-btn" href="{{ '/split-train-ticket/' . $routes->slug }}.html"
+                                    <a class="view-btn" href="{{ 'https://www.splittraintickets.net/split-train-ticket/' . $routes->slug }}.html"
                                         title="">Read More</a>
                                 </div>
                             </div>

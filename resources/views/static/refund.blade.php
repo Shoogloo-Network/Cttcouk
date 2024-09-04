@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('title', 'About Us')
-@section('meta-description', 'PO Ferries about us')
-@section('meta-keyword', 'PO Ferries')
+@section('title', 'Cancellation and Refund Policy | Cheap Train Tickets')
+@section('meta-description', 'Get to know more about Cheap Train Tickets cancellation and refund policy.')
+@section('meta-keyword', '')
 @section('content')
     <section class="section-gray fadeInUp animated">
         <div class="container herobanner">

@@ -13,6 +13,10 @@
     <title>{{ $pageDetail->metatitle }}</title>
     <meta name="description" content="{{ $pageDetail->metadescription }}" />
     <meta name="keywords" content="{{ $pageDetail->metakeyword }}" />
+	@else
+	<title>@yield('title', 'Default Title')</title>
+    <meta name="description" content="@yield('meta-description', 'Default Description')">
+    <meta name="keywords" content="@yield('meta-keyword', '')">
     @endif
 
     <!-- Fonts -->

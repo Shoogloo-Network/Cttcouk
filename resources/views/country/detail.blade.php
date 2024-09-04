@@ -15,7 +15,7 @@
             <h1 class="heading mb-5">Book {{ $pageData->name }} Cheap Train Tickets | Find Schedules, Fares & More</h1>
             <div class="row">
                 <div class="col-md-12 tracking" id="locateRM">
-                    <a href="https://www.splitsaving.co.uk/" target="_blank">
+                    <a href="{{ URL::to($pageDetail->merchant_link) }}" target="_blank">
                         <img height="347" src="/assets/images/cttimg/{{ $pageDetail->banner }}"
                             class="vc_single_image-img attachment-full"
                             alt="Split Train Tickets to London">

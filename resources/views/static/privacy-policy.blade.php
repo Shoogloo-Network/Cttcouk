@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('title', 'Privacy policy')
-@section('meta-description', 'PO Ferries Privacy policy')
-@section('meta-keyword', 'PO Ferries')
+@section('title', 'Privacy Policy | Cheap Train Tickets')
+@section('meta-description', 'When you use our services, you share your information with us. This Privacy Policy outlines how we safeguard and handle your personal data.')
+@section('meta-keyword', '')
 @section('content')
 <section class="section-gray fadeInUp animated">
 <div class="container herobanner2">
