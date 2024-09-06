@@ -32,7 +32,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-/config/database.*
+#/config/database.*
 .editorconfig
 .env.example
-config/database.php
+#config/database.php

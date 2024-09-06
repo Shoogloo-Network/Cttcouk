@@ -11,7 +11,6 @@ use App\Http\Controllers\Main\JourneyController;
 use App\Http\Controllers\Main\OperatorController;
 use App\Http\Controllers\Main\SplitController;
 use App\Http\Controllers\PostController;
-use App\Http\Controllers\SitemapController;
 use App\Models\Footerlink;
 use Illuminate\Support\Facades\Route;
 
@@ -46,9 +45,12 @@ Route::get('/ferries/{ferry}', [FerryController::class, 'ferryDetail'])->where('
 Route::get('/countries{extension?}', [CountryController::class, 'index'])->where('extension', '(?:.html)?')->name('country.main');
 Route::get('/countries/{country}', [CountryController::class, 'countryDetail'])->where('country', '.*')->name('country.detail');
 
-Route::get('sitemap.xml', [SitemapController::class, 'index']);
+// Route::prefix('')->group(function () {
+//     Route::get('{site_map_slug}', [SitemapController::class, 'show'])->where('site_map_slug', '.*');
+// });
 
 /**********Footers***********/
+
 $footrs = Footerlink::where('status', '1')->get();
 
 foreach ($footrs as $vroot) {
