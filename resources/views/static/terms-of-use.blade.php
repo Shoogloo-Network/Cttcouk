@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12 plr-0">
                     <div class="column-inner">
-                        <div">
+                        <div>
                             <p>We request each of our customers to read our "Terms and Conditions" carefully before using our website (Cheap Train Ticket) or availing our services. Our Terms and Conditions disclose the general rules and regulations for using the website. Make sure you read each point because we have also enlisted the prohibited activities. If anyone fails to follow the 'Terms' mentioned below is liable to face consequences.
                             <p><strong>Acceptance of Terms of Use</strong>
                             <p>Before you go ahead, you need to know that without acceptance of the terms and rules, you are not allowed to use our website. If you do not agree to the terms fully or partially, we would recommend you refrain from using our website. By using our website, you are giving an acceptance that you have agreed to all the points mentioned here.

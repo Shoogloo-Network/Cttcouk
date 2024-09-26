@@ -12,6 +12,7 @@ use App\Http\Controllers\Main\OperatorController;
 use App\Http\Controllers\Main\RailcardController;
 use App\Http\Controllers\Main\SplitController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\SitemapController;
 use App\Models\Footerlink;
 use Illuminate\Support\Facades\Route;
 
@@ -49,12 +50,9 @@ Route::get('/railcards/{railcard}', [RailcardController::class, 'railcardDetail'
 Route::get('/countries{extension?}', [CountryController::class, 'index'])->where('extension', '(?:.html)?')->name('country.main');
 Route::get('/countries/{country}', [CountryController::class, 'countryDetail'])->where('country', '.*')->name('country.detail');
 
-// Route::prefix('')->group(function () {
-//     Route::get('{site_map_slug}', [SitemapController::class, 'show'])->where('site_map_slug', '.*');
-// });
+Route::get('sitemap.xml', [SitemapController::class, 'index']);
 
 /**********Footers***********/
-
 $footrs = Footerlink::where('status', '1')->get();
 
 foreach ($footrs as $vroot) {
