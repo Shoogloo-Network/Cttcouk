@@ -16,10 +16,11 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
+
                             @foreach ($result as $nav)
-                                @php
-                                    $parent = $nav['parent_name'];
-                                @endphp
+
+                                @php $parent = $nav['parent_name']; @endphp
+
                                 @switch ($parent)
                                     @case ('Routes')
                                         @php
@@ -54,10 +55,7 @@
                                         @endphp
                                 @endswitch
 
-
-
                                 <li class="nav-item dropdown">
-
                                     @if ($nav['parent_name'] == 'Split Tickets')
                                         <a class="nav-link" href= "{{ $urlto }}" target="_blank">
                                             {{ $nav['parent_name'] }}
@@ -73,10 +71,12 @@
                                         </a>
                                     @endif
 
-                                    @if (count($nav['children']) > 0 && $nav['parent_tab_order'] <= 8)
+                                    @if (count($nav['children']) > 0 && $nav['parent_tab_order'] <= 10)
                                         <ul class="dropdown-menu">
                                             @foreach ($nav['children'] as $subnav)
+
                                                 @if ($subnav['child_status'] != 'No')
+
                                                     @if ($nav['parent_slug'] == 'cities')
                                                         <li><a class="dropdown-item"
                                                                 href="{{ url('/trains-to-' . $subnav['child_slug'] . '.html') }}">
@@ -102,6 +102,7 @@
                                                             </a>
                                                         </li>
                                                     @endif
+
                                                 @endif
                                             @endforeach
 
@@ -156,8 +157,6 @@
                                             $suffix = '';
                                         @endphp
                                 @endswitch
-
-
 
                                 <li class="nav-item dropdown">
 

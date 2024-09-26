@@ -19,7 +19,7 @@ class SplitController extends Controller
 
         $pageId = HomeNavbar::where(['domain_id' => $nestedNavbars[0]['domainid']])->get()->pluck('page_id')->firstOrFail();
 
-        $pageData = Navbar::where(['domain_id' => $nestedNavbars[0]['domainid'], 'slug' => '/'])->firstOrFail();
+        $pageData = Navbar::where(['domain_id' => $nestedNavbars[0]['domainid'], 'slug' => 'splittraintickets'])->firstOrFail();
 
         $citieshome = Cities::getHomeCities($_ENV['DOMAIN_ID']);
 

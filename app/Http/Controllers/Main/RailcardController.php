@@ -47,7 +47,7 @@ class RailcardController extends Controller
 
         $faqData = Faq::where(['page_id' => $pageId, 'slug' => $railcardData['slug'], 'status' => 'Yes'])->get();
 
-        $dealsData = Deal::where(['domain_id'=>$_ENV['DOMAIN_ID'], 'page_id'=>$pageId, 'slug'=>$railcard, 'status' => 'Yes'])->orderBy('id', 'desc')->get();
+        $dealsData = Deal::where(['domain_id' => $_ENV['DOMAIN_ID'], 'page_id' => $pageId, 'slug' => $railcard, 'status' => 'Yes'])->orderBy('id', 'desc')->get();
 
         $pageDetail = RailcardDetail::where(['railcard_id' => $railcardData['id'], 'domain_id' => $_ENV['DOMAIN_ID']])->firstOrFail();
 
