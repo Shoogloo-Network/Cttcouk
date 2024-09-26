@@ -9,6 +9,7 @@ use App\Http\Controllers\Main\FerryController;
 use App\Http\Controllers\Main\FooterController;
 use App\Http\Controllers\Main\JourneyController;
 use App\Http\Controllers\Main\OperatorController;
+use App\Http\Controllers\Main\RailcardController;
 use App\Http\Controllers\Main\SplitController;
 use App\Http\Controllers\PostController;
 use App\Models\Footerlink;
@@ -41,6 +42,9 @@ Route::post('/posts', [PostController::class, 'review'])->name('posts.review');
 
 Route::get('/ferries{extension?}', [FerryController::class, 'index'])->where('extension', '(?:.html)?')->name('ferry.main');
 Route::get('/ferries/{ferry}', [FerryController::class, 'ferryDetail'])->where('ferry', '.*')->name('ferry.detail');
+
+Route::get('/railcards{extension?}', [RailcardController::class, 'index'])->where('extension', '(?:.html)?')->name('railcard.main');
+Route::get('/railcards/{railcard}', [RailcardController::class, 'railcardDetail'])->where('railcard', '.*')->name('railcard.detail');
 
 Route::get('/countries{extension?}', [CountryController::class, 'index'])->where('extension', '(?:.html)?')->name('country.main');
 Route::get('/countries/{country}', [CountryController::class, 'countryDetail'])->where('country', '.*')->name('country.detail');

@@ -699,7 +699,7 @@ h6 {
     margin-top: 0;
 }
 
-.share-buttons-container div.col-md-12.row {
+.share-buttons-container div.col-md-12.row-rail {
     margin-left: 0;
     margin-right: 0;
     display: block;
@@ -1432,3 +1432,484 @@ footer .list-arrow li a {
         opacity: 1
     }
 }
+
+/*Railcard Csss */
+
+.rail-heading{
+	color: #0d4da2;
+	font-size: 34px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 6px;
+	font-weight: 500;
+}
+
+.h3-rail{
+	color: #0d4da2;
+	font-size: 20px;
+	margin: 0px;
+	padding-top: 12px;
+	padding-bottom: 1px;
+	font-weight: 500;
+}
+
+.h4-rail {
+	color: #0d4da2;
+	font-size: 20px;
+	margin: 0px;
+	padding-top: 12px;
+	padding-bottom: 1px;
+	font-weight: 500;
+}
+
+
+
+
+
+
+.row-rail * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.text_center {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.text_right {
+	text-align: right;
+}
+
+.image_hover_zoom {
+	overflow: hidden;
+	display: block;
+}
+
+.image_hover_zoom img {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.image_hover_zoom_container:hover .image_hover_zoom img {
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
+}
+.sr_only {
+	display: none;
+}
+
+.wrap {
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+div.rounded {
+	border: 1px solid #D4D4D4;
+	border-radius: 10px;
+}
+
+
+hr {
+	background-color: #E9E9E9;
+	height: 1px;
+	width: 100%;
+	padding: 0px;
+	margin: 25px 0px 0px;
+	border: none;
+}
+
+/* Buttons Start */
+
+.btn-rail {
+	background-color: transparent;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn-rail.btn-rail_small {
+	height: auto;
+	line-height: initial;
+	padding: 10px;
+}
+
+.text_center .btn-rail {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn-rail:focus,
+.btn-rail:hover {
+	text-decoration: none;
+}
+
+.btn-rail.btn-rail_blue {
+	background-color: #154da2;
+}
+
+.btn-rail.btn-rail_blue:hover,
+.btn-rail.btn-rail_blue:focus {
+	background: #4471b5; /* 80% opacity of the primary colour */
+}
+
+.btn-rail.btn-rail_light_blue {
+	background-color: #00a0e6;
+}
+
+.btn-rail.btn-rail_light_blue:hover,
+.btn-rail.btn-rail_light_blue:focus {
+	background: #33b3eb; /* 80% opacity of the primary colour */
+}
+/* Buttons End */
+
+/* Main Body Styling Start */
+
+#page_content {
+	position: relative;
+	width: 100%;
+}
+
+
+.homepage .rail-heading,
+
+.homepage .h3-rail,
+.homepage .h4-rail {
+	color: #154da2;
+	font-weight: 700;
+}
+
+.homepage .rail-heading {
+	font-size: 34px;
+}
+
+.homepage .main_area p {
+	color: #283168;
+	font-size: 16px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1168px;
+	width: 100%;
+}
+
+.right_col_content {
+	background-color: #f2f2f2;
+	padding: 30px 30px 0;
+	margin-bottom: 20px;
+}
+
+
+.light_background {
+	background-color: #fcefe7;
+	border-radius: 10px;
+	color: #283369;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.light_background p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Body Styling End */
+
+/* Homepage Hero Content Area Start */
+
+.hero_wrapper {
+	background-color: #f4faff;
+	color: #154da2;
+	position: relative;
+	width: 100%;
+    /* margin-top: 20px; */
+    /* padding-top: 20px; */
+}
+
+.hero_inner {
+	height: 475px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100%;
+}
+
+.hero_content {
+	padding: 30px 60px 30px 0;
+	width: 642px;
+    padding-top: 60px;
+}
+
+.hero_content .rail-heading {
+	font-weight: 700;
+}
+
+.hero_content .rail-heading {
+	color:#154da2;
+	font-size: 54px;
+	line-height: 56px;
+}
+
+
+
+.hero_content p {
+	font-size: 20px;
+}
+
+.hero_content .btn-rail.btn-rail_text {
+	color: #293269;
+}
+
+.hero_image_wrapper {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 100%;
+	height: 100%;
+    width: 45%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+@media (max-width: 1168px) {
+	.hero_image_wrapper {
+		overflow-x: hidden;
+	}
+}
+
+.hero_image_wrapper img {
+	border-top-left-radius: 40px 50%;
+	border-bottom-left-radius: 40px 50%;
+}
+
+.hero_image {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.hero_image a.btn-rail_admin {
+	bottom: 30px;
+	right: 30px;
+	position: absolute;
+}
+
+.hero_content .btn-rail {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.hero_content_widget {
+	background-color: #fff;
+	border-radius: 10px;
+	bottom: -37px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	height: 50px;
+	left: 50%;
+	padding: 12px 22px;
+	position: relative;
+	transform: translateX(-50%);
+	max-width: 1124px;
+	width: 100%;
+	width: calc(100% - 44px);
+	z-index: 10;
+}
+
+.hero_content_widget_container {
+	background-color: #e8f5fe;
+	padding-top: 80px;
+}
+
+.hero_content_widget_item {
+	float: left;
+	position: relative;
+	width: 25%;
+}
+
+.hero_content_widget_item img {
+	padding-right: 20px;
+}
+
+.hero_content_widget_item span {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* Homepage Hero Content Area End */
+
+/* Railcard Finder Start */
+
+
+.railcard_finder_intro {
+	margin-bottom: 40px;
+}
+
+.railcard_finder {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	color: #283269;
+	padding: 30px 30px 50px 30px;
+	position: relative;
+    height: 140px;
+    margin-bottom: 40px;
+}
+
+
+
+.railcard_item {
+	background-color: #fff;
+	border-top: 10px solid transparent;
+	border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+	width: 33.333334%;
+	width: calc(33.333334% - 16.666667px);
+}
+
+.railcard_no_results .railcard_item {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.railcard_item.disabled {
+	opacity: 0.5;
+}
+
+.railcard_item:nth-child(3n+1) {
+	margin-left: 0;
+}
+
+.railcard_item_inner {
+	height: 100%;
+	padding: 15px 15px 60px 15px;
+	position: relative;
+}
+
+.railcard_item_logo {
+	padding-bottom: 20px;
+}
+
+.railcard_item_logo > .h3-rail {
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+.railcard_item_logo > .h3-rail > img {
+	float: left;
+}
+
+.railcard_item_logo > .h3-rail > span {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.railcard_item_link {
+	background-color: #154da2;
+/* background-image: url('/images/railcard-finder-arrow-blue.png'); */
+background-position: center center;
+background-repeat: no-repeat;
+/* border-radius: 50%; */
+bottom: 15px;
+display: flex; /* Use Flexbox */
+align-items: center; /* Center content vertically */
+justify-content: center; /* Center content horizontally */
+height: 28px;
+position: absolute;
+right: 15px;
+/* align-self: flex-start; */
+width: 92px;
+color: #fff;
+border-radius: 15px;
+padding: 5px 15px;
+text-align: center;
+margin-top: 20px;
+text-decoration: none;
+
+}
+
+/* Railcard Finder End */
+
+/* Mobile View */
+ /* Mobile-specific styles */
+ @media (max-width: 768px) {
+	.hero_image_wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+  }
+	  /* Hide the banner image */
+	  .hero_image {
+		display: none;
+	  }
+	  .hero_inner{
+		height: auto;
+	  }
+	  .hero_content{
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	  }
+	  /* Adjust railcard items to display two in one row */
+	  .railcard_finder_search_results .railcard_item {
+		width: 48%;
+		margin: 1%;
+		display: inline-block;
+		vertical-align: top;
+	  }
+	
+	  /* Ensure inner content fits properly */
+	  .railcard_finder_search_results .railcard_item_inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  }
+	
+	  /* Adjustments for smaller text and better spacing */
+	  .railcard_item .h3-rail {
+		font-size: 16px;
+	  }
+	
+	  .railcard_item p {
+		font-size: 14px;
+	  }
+	
+	  .railcard_item_link {
+		font-size: 14px;
+	  }
+	}
+  
