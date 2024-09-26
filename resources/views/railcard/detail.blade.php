@@ -7,12 +7,12 @@
         <div class="hero_inner">
           <div class="container">
             <div class="hero_content">
-              <p>
+              <!-- <p>
                 <span style="font-size: smaller"
                   >The official retailer&nbsp;of Railcards by National
                   Rail</span
                 >
-              </p>
+              </p> -->
 
               
 
@@ -26,12 +26,12 @@
                   margin-top: 20px;
                 "
               >
-                Just a few journeys and it's paid for!
+              A couple of journeys and it’s already worth the investment!
               </p>
 
               <h4 class="h4-rail">
-                <a class="btn-rail btn-rail_blue anchor" href="#"
-                  >Choose your Railcard</a
+                <a class="btn-rail btn-rail_blue anchor" href="#main_content"
+                  >Select your Railcard</a
                 >&nbsp;
               </h4>
             </div>
@@ -39,7 +39,7 @@
 
               <div class="hero_image">
     
-      <img src="/assets/images/cttimg/RC-easter-campaign-hero.png" alt="Multicoloured beach huts on a sandy beach against a bright blue sky" loading="lazy" />
+      <img src="/assets/images/cttimg/RC-easter-campaign-hero.jpg" alt="Multicoloured beach huts on a sandy beach against a bright blue sky" loading="lazy" />
     
     
     </div>
@@ -72,11 +72,9 @@
                 />
               </p>
 
-              <h1 class="rail-heading">Find your Railcard</h1>
-
+              <h1 class="rail-heading">Choose Your Railcard</h1>
               <p>
-                Over 20 million people in Great Britain can save with one of our
-                Railcards. Which one will you get?
+              More than 20 million people across Great Britain are already saving with our Railcards. Which one will you choose?
               </p>
             </div>
 
