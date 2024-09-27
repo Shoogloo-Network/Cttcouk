@@ -308,6 +308,11 @@ h6 {
     color: inherit;
     text-align: justify;
     font-size: 24px;
+    margin-top:20px;
+}
+
+ol, ul, dl {
+    margin-top:1em;
 }
 
 .flex-none {
