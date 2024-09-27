@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" type="image/x-icon" href="/assets/images/cttimg/CTTFavicon.png">
-    @if($pageId == 33 )
+    @if($pageId == 33 || $pageId == 37)
         <meta name="robots" content="noindex">
     @endif
     @if($pageDetail != "" )
@@ -69,7 +69,7 @@
         @include('layouts/flash-messages')
         @yield('content')
         <footer> @include('common/cttfooter') </footer>
-    </div>	
+    </div>
 	<script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -86,7 +86,7 @@
     }
     </script>
 	</script>
-    <script type="application/ld+json"> 
+    <script type="application/ld+json">
         {
         "@context": "https://schema.org/",
         "@type": "WebSite",

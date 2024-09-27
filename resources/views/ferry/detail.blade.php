@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('content')
     <section class="section-gray herobanner3 fadeInUp animated" style="padding-bottom: 10px !important">
-        {{-- <h1 class="heading mb-4">{{ $ferryData->name }} Tickets, Information, Timetable and Destinations</h1> --}}
+        {{-- <h1 class="heading mb-4">{{ $railcardData->name }} Tickets, Information, Timetable and Destinations</h1> --}}
         <div class="">
             <div class="col-md-12 tracking">
                 <a href="https://poferries.jyae.net/c/3882848/170847/3038?subId1=CTT&subId2=1230" target="_blank">
                     <img width="100%" height="auto" src="/assets/images/cttimg/{{ $pageDetail->herobanner }}"
-                        class="vc_single_image-img attachment-full desktop-img" alt="{{ $ferryData->name }}">
+                        class="vc_single_image-img attachment-full desktop-img" alt="{{ $railcardData->name }}">
                     <img width="100%" height="auto" src="/assets/images/cttimg/{{ $pageDetail->mob_herobanner }}"
-                        class="vc_single_image-img attachment-full mob-img" alt="{{ $ferryData->name }}">
+                        class="vc_single_image-img attachment-full mob-img" alt="{{ $railcardData->name }}">
                 </a>
             </div>
         </div>
@@ -19,7 +19,7 @@
             {{-- <div class="row"><a href="https://poferries.jyae.net/c/3882848/170847/3038?subId1=CTT&subId2=1230"
                     target="_blank">
                     <img src="/assets/images/sttimg/po-ferries-booking.jpg" width="100%" height="100%"
-                        alt="{{ $ferryData->name }} banner"></a>
+                        alt="{{ $railcardData->name }} banner"></a>
             </div> --}}
             <div class="row">
                 <div id="ferry-eng">
@@ -183,7 +183,7 @@
     @if(count($dealsData)>0)
     <section class="blog-section fadeInUp animated">
             <div class="container">
-                <h2 class="heading mb-4">Latest Deals, Offers, Coupons and Discount Codes in {{ $ferryData->name }}</h2>
+                <h2 class="heading mb-4">Latest Deals, Offers, Coupons and Discount Codes in {{ $railcardData->name }}</h2>
                 @include('common/deals')
             </div>
         <div class="clear"></div>
@@ -191,7 +191,7 @@
     @endif
     <section class="section-gray fadeInUp animated">
         <div class="container">
-            <h1 class="heading mb-4"> {{ $ferryData->name }} - Ferry Tickets, Prices & Schedules</h1>
+            <h1 class="heading mb-4"> {{ $railcardData->name }} - Ferry Tickets, Prices & Schedules</h1>
             <div class="row">
                 <div class="col-md-12 tracking" id="locateRM">
                     <a href="https://www.splitsaving.co.uk/" target="_blank">
