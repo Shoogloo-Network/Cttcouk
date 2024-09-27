@@ -16,7 +16,7 @@
 
               
 
-              <h1 class="rail-heading">Get a&nbsp;Railcard</h1>
+              <span class="rail-heading">Get a&nbsp;Railcard</h1>
 
               <p
                 style="
@@ -72,7 +72,7 @@
                 />
               </p>
 
-              <h1 class="rail-heading">Choose Your Railcard</h1>
+              <span class="rail-heading">Choose Your Railcard</h1>
               <p>
               More than 20 million people across Great Britain are already saving with our Railcards. Which one will you choose?
               </p>
@@ -100,14 +100,12 @@
                   </div>
 
                   <p>
-                    For those aged 16-25, save&nbsp;1/3 off rail fares for days
-                    out, seeing family and friends and even festivals!
+                  Aged 16-25? You can save 1/3 on rail tickets, whether it's for a day trip, visiting family & friends or even festivals!
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=16-25&ued=https%3A%2F%2Fwww.16-25railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -133,14 +131,12 @@
                   </div>
 
                   <p>
-                    For those aged 60 and over, save 1/3 off rail fares for days
-                    out, holidays, seeing family and friends, and theatre trips!
+                  For those aged 60+, get 1/3 off rail fares for family visits, holiday adventures, theatre outings, and exciting days out!
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=Senior+Railcard&ued=https%3A%2F%2Fwww.senior-railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -166,14 +162,12 @@
                   </div>
 
                   <p>
-                    For 2&nbsp;named people travelling together, get an average
-                    annual saving of £97* plus special partner discounts!
+                  For 2 named travelers, secure an average annual saving of £97*, alongside exclusive discounts tailored for partners!
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=twotogether&ued=https%3A%2F%2Fwww.twotogether-railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -199,14 +193,12 @@
                   </div>
 
                   <p>
-                    If you have a disability that makes travelling by train
-                    difficult, you may qualify for a Disabled Persons Railcard
+                  If traveling by train is challenging due to a disability, you could qualify for a Disabled Persons Railcard with perks.
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=disabledpersons&ued=https%3A%2F%2Fwww.disabledpersons-railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -232,14 +224,12 @@
                   </div>
 
                   <p>
-                    Valid for those aged 26 to 30. For just £30, save 1/3 on
-                    most rail fares to travel across Britain for a year!
+                  Valid for ages 26-30, spend £30 and receive 1/3 off most British rail fares for a year-long journey!
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=26-30railcard&ued=https%3A%2F%2Fwww.26-30railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -265,15 +255,13 @@
                   </div>
 
                   <p>
-                    Children&nbsp;aged 5 to 15 get 60% discount on kids fares!
-                    Up to 4&nbsp;adults and 4&nbsp;children can travel on 1
+                  Kids aged 5-15 receive a 60% discount on fares! Travel with up to 4 adults, 4 kids, one card.
                     card.
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=familyandfriends&ued=https%3A%2F%2Fwww.familyandfriends-railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -299,15 +287,12 @@
                   </div>
 
                   <p>
-                    For those travelling in the South East, aged 16 or over. Get
-                    an average annual saving of £138*&nbsp;plus partner
-                    discounts.
+                  South East travelers aged 16 and above can secure £138 annual savings, with additional discounts from select partners.
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=network&ued=https%3A%2F%2Fwww.network-railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -333,14 +318,12 @@
                   </div>
 
                   <p>
-                    For those aged 16 or 17. Enjoy 50% off standard Anytime,
-                    Off-Peak, Advance and Season tickets, for just £30 a year.
+                  If you're 16 or 17, enjoy 50% off Anytime, Off-Peak, Advance, and Season tickets for £30 per year.
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=16-17&ued=https%3A%2F%2Fwww.16-17saver.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -366,14 +349,12 @@
                   </div>
 
                   <p>
-                    If you are a veteran of the UK Armed Forces, you may qualify
-                    for a Veterans Railcard. Save&nbsp;1/3 on most rail fares.
+                  Veterans of the UK Armed Forces can apply for a Veterans Railcard to receive 1/3 off most rail fares.
                   </p>
 
                   <a
                     href="https://www.awin1.com/cread.php?awinmid=6235&awinaffid=241017&clickref=veterans&ued=https%3A%2F%2Fwww.veterans-railcard.co.uk%2F"
                     class="railcard_item_link"
-                    target="_blank"
                     >Buy Now</a
                   >
                 </div>
@@ -394,7 +375,7 @@
 
     <section class="section-gray-rail fadeInUp animated">
         <div class="container">
-            <h1 class="heading mb-4"> {{ $railcardData->name }} - Ferry Tickets, Prices & Schedules</h1>
+            <h1 class="heading mb-4">About {{ $railcardData->name }}</h1>
             <div class="row-rail">
                 <div class="col-md-12 tracking" id="locateRM">
                     <div class="slide-read-more"> {!! $pageDetail->description !!} </div>
@@ -409,7 +390,7 @@
     <section class="section-gray-rail fadeInUp animated">
         <div class="container">
             <div class="accordion-box">
-                <h3 class="heading mt-4">P&O Ferries FAQs</h3>
+                <h3 class="heading mt-4">{{ $railcardData->name }} FAQs</h3>
                 <div class="accordion" id="accordionExample">
                     @foreach ($faqData as $faq)
                         <div class="accordion-item">
