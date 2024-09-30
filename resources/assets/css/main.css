@@ -313,6 +313,7 @@ h6 {
 
 ol, ul, dl {
     margin-top:1em;
+    list-style:disc;
 }
 
 .flex-none {

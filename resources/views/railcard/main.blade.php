@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 tracking">
-                    <a href="https://poferries.jyae.net/c/3882848/170847/3038?subId1=CTT&subId2=1230" target="_blank">
+                    <a href="#" target="_blank">
                         <img width="100%" height="100%" src="/assets/images/cttimg/{{ $pageDetail->herobanner }}"
                             class="vc_single_image-img attachment-full" alt="{{ $pageDetail->name }}">
                     </a>
@@ -38,7 +38,7 @@
                                 <div class="banner-txt">{!! $operator['shortdesc'] !!}</div>
                                 <div class="view-box">
                                     <a class="view-btn"
-                                        href="https://poferries.jyae.net/c/3882848/170847/3038?subId1=CTT&subId2=1230"
+                                        href="/railcards/{{$operator['slug'] }}.html"
                                         title="">Read More</a>
                                 </div>
                             </div>
