@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" type="image/x-icon" href="/assets/images/cttimg/CTTFavicon.png">
-    @if($pageId == 33 || $pageId == 37)
-        <meta name="robots" content="noindex">
+    @if($pageId == 33)
+        <meta name="robots" content="noindex" />
     @endif
     @if($pageDetail != "" )
     <title>{{ $pageDetail->metatitle }}</title>
     <meta name="description" content="{{ $pageDetail->metadescription }}" />
     <meta name="keywords" content="{{ $pageDetail->metakeyword }}" />
-	@else
-	<title>@yield('title', 'Default Title')</title>
+    @else
+    <title>@yield('title', 'Default Title')</title>
     <meta name="description" content="@yield('meta-description', 'Default Description')">
     <meta name="keywords" content="@yield('meta-keyword', '')">
     @endif
@@ -69,7 +69,7 @@
         @include('layouts/flash-messages')
         @yield('content')
         <footer> @include('common/cttfooter') </footer>
-    </div>
+    </div>	
 	<script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -86,7 +86,7 @@
     }
     </script>
 	</script>
-    <script type="application/ld+json">
+    <script type="application/ld+json"> 
         {
         "@context": "https://schema.org/",
         "@type": "WebSite",
