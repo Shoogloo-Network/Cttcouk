@@ -174,7 +174,7 @@
                                         </a>
                                     @endif
 
-                                    @if (count($nav['children']) > 0 && $nav['parent_tab_order'] <= 8)
+                                    @if (count($nav['children']) > 0 && $nav['parent_tab_order'] <= 10)
                                         <ul class="dropdown-menu">
                                             @foreach ($nav['children'] as $subnav)
                                                 @if ($subnav['child_status'] != 'No')

@@ -31,7 +31,7 @@ class Navbar extends Model
                 'subnavbars.order',
                 'subnavbars.status as subnavbar_status',
             )->where('subnavbars.child_id', '<>', 999)->where('subnavbars.domain_id', '=', $_ENV['DOMAIN_ID'])
-            ->orderBy('subnavbars.navbar_id', 'asc')->orderBy('subnavbars.order', 'ASC')
+            ->orderBy('navbars.tab_order', 'asc')->orderBy('subnavbars.navbar_id', 'asc')->orderBy('subnavbars.order', 'ASC')
             ->get();
 
         $result = array();
